@@ -1,0 +1,14 @@
+{
+    "name": "gitlab-scripts",
+    "package-specs": {
+        "in-source": true,
+        "module": "commonjs"
+    },
+    "sources": {
+        "dir": "scripts",
+        "subdirs": true
+    },
+    "bs-dependencies": [
+        "@ryyppy/rescript-promise"
+    ]
+}

@@ -1,0 +1,6 @@
+.env
+node_modules/
+lib/
+.bsb.lock
+.merlin
+scripts/**/*.js
