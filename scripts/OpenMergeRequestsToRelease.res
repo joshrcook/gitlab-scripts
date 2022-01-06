@@ -30,8 +30,7 @@ let _ = {
   ->Promise.then(data => {
     data
     ->Belt.Array.keep(mr =>
-      mr["title"]->Js.String2.includes("Auto created") &&
-        mr["title"]->Js.String2.includes("release")
+      mr["title"]->Js.String2.includes("Auto created") && mr["title"]->Js.String2.includes("master")
     )
     ->Belt.Array.map(mr => mr["web_url"])
     ->Js.log2("open merge requests")
